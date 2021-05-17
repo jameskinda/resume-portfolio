@@ -16,7 +16,7 @@ export const projects = [
     buttonOne: "Github",
     buttonTwo: "Home Page",
     gitLink: "https://github.com/jameskinda/portfolio/tree/master",
-    appLink: "https://jameskinda.github.io/",
+    appLink: "https://jameskinda.github.io/resume-portfolio/",
     longDescription:
       "This front-end application is both mobile and desktop friendly. I developed the application using React.js and Material-UI. React Hooks is used to manage state and React Router DOM is used to implement routing. The react-particles-js library and the react-typed library are used for the homepage animations. In the GitHub repository there is an appData.js file, which is used to dynamically render the portfolio page. I developed input validation for the contact page. The validation requires all fields be filled and the provided email address be formatted correctly. Upon validation, the user’s message is sent to my personal email address using emailJS.",
     chips: [
