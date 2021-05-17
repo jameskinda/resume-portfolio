@@ -15,9 +15,8 @@ export const projects = [
     description: "The Current web app you are on!",
     buttonOne: "Github",
     buttonTwo: "Home Page",
-    gitLink:
-      "https://static.onecms.io/wp-content/uploads/sites/6/2017/10/banjo-2000.jpg",
-    appLink: "https://www.landolakes.com/recipe/16700/belgian-style-waffles/",
+    gitLink: "https://github.com/jameskinda/portfolio/tree/master",
+    appLink: "https://jameskinda.github.io/",
     longDescription:
       "This front-end application is both mobile and desktop friendly. I developed the application using React.js and Material-UI. React Hooks is used to manage state and React Router DOM is used to implement routing. The react-particles-js library and the react-typed library are used for the homepage animations. In the GitHub repository there is an appData.js file, which is used to dynamically render the portfolio page. I developed input validation for the contact page. The validation requires all fields be filled and the provided email address be formatted correctly. Upon validation, the user’s message is sent to my personal email address using emailJS.",
     chips: [
@@ -86,7 +85,7 @@ export const cardExpansion = buildExpansion();
 
 export const socialMediaLinks = {
   linkedIn: "https://www.linkedin.com/in/james-kinda-328479119/",
-  gitHub: "https://www.linkedin.com/in/james-kinda-328479119/",
+  gitHub: "https://github.com/jameskinda",
 };
 
 export const mainImage = headshot;
