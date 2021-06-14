@@ -6,7 +6,7 @@ export function useForm(initialFValues, validateOnChange = false, validate) {
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
-    setValues({ ...values, [name]: value }); //we spread in the other to update using the current values of other properties as well
+    setValues({ ...values, [name]: value });
     if (validateOnChange) validate({ [name]: value });
   };
 

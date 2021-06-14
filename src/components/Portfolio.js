@@ -93,22 +93,26 @@ export default function Portfolio() {
               </CardContent>
 
               <CardActions>
-                <Button
-                  size="small"
-                  href={project.gitLink}
-                  target="_blank"
-                  className={classes.button}
-                >
-                  {project.buttonOne}
-                </Button>
-                <Button
-                  size="small"
-                  href={project.appLink}
-                  target="_blank"
-                  className={classes.button}
-                >
-                  {project.buttonTwo}
-                </Button>
+                {project.buttonOne && (
+                  <Button
+                    size="small"
+                    href={project.gitLink}
+                    target="_blank"
+                    className={classes.button}
+                  >
+                    {project.buttonOne}
+                  </Button>
+                )}
+                {project.buttonTwo && (
+                  <Button
+                    size="small"
+                    href={project.appLink}
+                    target="_blank"
+                    className={classes.button}
+                  >
+                    {project.buttonTwo}
+                  </Button>
+                )}
                 <Box style={{ flexGrow: "1" }}></Box>
                 <IconButton
                   className={clsx(classes.expand, {

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { makeStyles, withStyles } from "@material-ui/core/styles"; //when you want to use the theme object you need to import it from styles
+import { makeStyles, withStyles } from "@material-ui/core/styles";
 import {
   Typography,
   Box,
@@ -58,7 +58,7 @@ export default function Contacts() {
   };
 
   const validate = (fieldValues = values) => {
-    let temp = { ...errors }; //so it does not keep clearing out the errors each time it checks on input change we spread all our errors
+    let temp = { ...errors };
     if ("fullName" in fieldValues) {
       temp.fullName = fieldValues.fullName ? "" : "This field is required";
     }
@@ -78,19 +78,12 @@ export default function Contacts() {
     }
     setErrors({ ...temp });
     if (fieldValues == values) {
-      //we do this so we only call this function inside the handleSubmit function. This stops it from retunring true or false on handleinputchange. On handleInputChange we only pass in 1 object, but on HandleSubmit we pass in all the values.
-      return Object.values(temp).every((x) => x == ""); //if every value in the temp array is an exmptry srting then it is valid and true will be returned
+      return Object.values(temp).every((x) => x == "");
     }
   };
 
-  const {
-    values,
-    setValues,
-    handleInputChange,
-    errors,
-    setErrors,
-    resetForm,
-  } = useForm(initialFValues, true, validate); //makes it so we can reuse the code much easier by using a function component which takes in the default state and returns what we need to update state
+  const { values, setValues, handleInputChange, errors, setErrors, resetForm } =
+    useForm(initialFValues, true, validate);
 
   const sendEmail = (e) => {
     e.preventDefault();

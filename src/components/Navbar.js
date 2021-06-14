@@ -78,7 +78,7 @@ const Navbar = () => {
   });
 
   const toggleSlider = (slider, open) => () =>
-    setState({ ...state, [slider]: open }); //the double arrow function not sure why he does it this way but it works, it is just a curried function, so this returns a function that returns a function with no parameters and just runs
+    setState({ ...state, [slider]: open });
 
   const sideList = (slider) => (
     <Box
@@ -111,7 +111,7 @@ const Navbar = () => {
           position="static"
           style={{
             background: "#222",
-          }} /*this is called inLine Styles lets you edit these (https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference) this will edit CSS in element.Style. If we want to directy edit Mui defualt styles do above, here we just override them*/
+          }}
         >
           <Toolbar>
             <IconButton onClick={toggleSlider("right", true)}>
