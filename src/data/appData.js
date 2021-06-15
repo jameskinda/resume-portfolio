@@ -109,7 +109,7 @@ function resume_description() {
       <br />
       <Typography>
         {
-          "Due to my passion for computer science, I was one of eighteen chosen to participate in a 3.5-month self-lead PwC coding bootcamp during the beginning of 2020. The sole focus of this bootcamp was to develop document automation applications in Google Apps Script. Upon finishing the PwC Bootcamp, I have worked on many unique internal projects and initiatives at PwC related to the combination of computer science and financial services."
+          "Due to my passion for computer science, I was one of eighteen chosen to participate in a 3-month self-lead PwC coding bootcamp during the beginning of 2020. The sole focus of this bootcamp was to develop document automation applications in Google Apps Script. Upon finishing the PwC Bootcamp, I have worked on many unique internal projects and initiatives at PwC related to the combination of computer science and financial services."
         }
       </Typography>
       <br />
