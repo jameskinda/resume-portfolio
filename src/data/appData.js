@@ -15,14 +15,7 @@ export const projects = [
     description:
       "My resume and portfolio, which is the current web app you are on!",
     buttonOne: "Github",
-<<<<<<< Updated upstream
-    buttonTwo: "Home Page",
-    gitLink: "https://github.com/jameskinda/resume-portfolio",
-=======
-    buttonTwo: false,
     gitLink: "https://github.com/jameskinda/resume-portfolio/tree/master",
->>>>>>> Stashed changes
-    appLink: "https://jameskinda.github.io/resume-portfolio/",
     longDescription:
       "This front-end application is both mobile and desktop friendly. I developed the application using React.js and Material-UI. React Hooks is used to manage state and React Router DOM is used to implement routing. The react-particles-js library and the react-typed library are used for the homepage animations. In the GitHub repository there is an appData.js file, which is used to dynamically render the portfolio page. I developed input validation for the contact page. The validation requires all fields be filled and the provided email address be formatted correctly. Upon validation, the user’s message is sent to my personal email address using emailJS.",
     chips: [
@@ -97,7 +90,7 @@ function resume_description() {
     <>
       <Typography>
         {
-          "My name is James Kinda, I grew up in Napa Valley and graduated with honors from USC with a Bachelor of Science in Accounting. I currently work at PwC in Capital Markets and Accounting Advisory Services. In CMAAS I have developed a deep understanding of technical accounting. I have worked on complex accounting issues such as has revenue recognition, lease accounting, consolidations, business combinations, financial instruments, and IPOs. Additionally, I have passed all exams and completed all requirements for my CPA and am currently awaiting board approval."
+          "My name is James Kinda, I grew up in Napa Valley and graduated with honors from USC with a Bachelor of Science in Accounting. I currently work at PwC in Capital Markets and Accounting Advisory Services. In CMAAS I have developed a deep understanding of technical accounting. I have worked on complex accounting issues such as revenue recognition, lease accounting, consolidations, business combinations, financial instruments, and IPOs. Additionally, I have passed all exams and completed all requirements for my CPA and am currently awaiting board approval."
         }
       </Typography>
       <br />
